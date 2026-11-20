@@ -40,4 +40,4 @@ leaflet(data = my_data) |>
   
 Red Trees indicate Sugar Pines infected with white pine blister rust (WPBR)
 Green Trees represent Sugar Pines resistant to WPBR
-  
+  test
