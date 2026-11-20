@@ -1,2 +1,2 @@
 # PILA
-Map of Sugar Pines
+Map of Sampled Sugar Pines (_Pinus lambertiana_) in Yosemite and Sequoia National Parks
