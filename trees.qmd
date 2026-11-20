@@ -1,5 +1,5 @@
 ---
-title: "Cores Collected From Sugar Pines in Yosemite and Sequoia National Park"
+title: "Sugar Pines Sampled in Yosemite and Sequoia National Park"
 format: html
 ---
 
@@ -22,7 +22,6 @@ tree_icons <- awesomeIcons(
   iconColor = ifelse(my_data$resistance == "I", "#660000", "#1B4332")
 )
 
-
 # 3. Pass the data frame to leaflet()
 leaflet(data = my_data) |>
   addTiles() |>
@@ -30,7 +29,7 @@ leaflet(data = my_data) |>
     lng = ~longitude,
     lat = ~latitude,
     icon = tree_icons,
-     popup = ~paste0(
+    popup = ~paste0(
       "<b>Site ID:</b> ", plotID, "<br>",
       "<b>Tree ID:</b> ", treeID, "<br>",
       "<b>Resistance:</b> ", resistance, "<br>",
@@ -39,4 +38,6 @@ leaflet(data = my_data) |>
   )
 ```
   
+Red Trees indicate Sugar Pines infected with white pine blister rust (WPBR)
+Green Trees represent Sugar Pines resistant to WPBR
   
